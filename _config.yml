@@ -1,22 +1,22 @@
 #######
 #
-# foundations-computation
+# foundations-data
 # basic template for Jekyll with GitHub Pages
-# https://github.com/learn-static/foundations-computation
+# https://github.com/learn-static/foundations-data
 #
 #######
 
 #######
 # SITE SETTINGS
 #
-title: foundations-computation
-description: "a learn-static tool for teaching the basics of Jekyll, Liquid, and computational methods"
+title: foundations-data
+description: ""
 year: 2021
 author: learn-static
 
 ##########
 # location of code, the full url to your github repository
-source-code: https://github.com/learn-static/foundations-computation
+source-code: https://github.com/learn-static/foundations-data
 
 #######
 # BUILD SETTINGS [usually leave as is]
