@@ -7,5 +7,10 @@
 **Time to complete**: 15-30 minutes
 
 **Objectives**:
+- Students will read a brief description of metadata 
+- Students will download sample CollectionBuilder structured data and upload it to Google Sheets.
+- Students will complete a short activity exploring the sample data that emphasizes how csvs are both human- and machine-readable.
+- Students will correct errors in the sample data in Google Sheets, then re-upload it to GitHub.
+
 
 **External Resources**:
