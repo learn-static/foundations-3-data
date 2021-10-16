@@ -12,13 +12,17 @@ layout: default
             <div class="card">
                 <img class="card-img-top" src="{{ p.image | prepend: 'images/' |relative_url }}" alt="Image of {{ p.name }}, a {{ p.type }}">
                 <div class="card-body text-center">
-                    <h4 class="card-title text-dark">{{ p.name }}, a {{ p.type }}</h4>
+                    <h4 class="card-title text-dark">{{ p.type }}</h4>
                     <p class="card-text">
+                        {{p.name}}
+                    </p><p class="card-text">
                         <strong>Age:</strong> {{ p.age }} <br>
                         <strong>Owner:</strong> {{ p.owner }} <br>
                         <strong>Contact:</strong> {{ p.contact }} <br>
                         <strong>Location:</strong> {{ p.location }}
                     </p>
+                    <a href="#" class="btn btn-primary">Call {{p.owner}} to Rent!</a>
+
                 </div>
             </div>
         </div>
