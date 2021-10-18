@@ -38,3 +38,10 @@ Meanwhile, you might want to copy the URL to display on your home page:
 2. Go to repository's home page.
 3. On right side of the code area, look for "About" section and click on the cog icon to edit. 
 4. In the "About" box, paste in your URL, then click "Save". This will make it easy to access the site in the future!
+
+# Step 3. Explore your website
+
+1. Navigate to the website you just activated, and explore it! Your site should have two pages: a homepage with pictures of cute pets, and a "Map" site that you can access from the menu at the top of the homepage.
+2. Where is Loulou, Flaubert's parrot, shown on your map? Oh no! She's in Kentucky. To discover how your website is built, and how to fix this error, go to the next step.
+
+# Step 4. Explore how your repository creates your website
