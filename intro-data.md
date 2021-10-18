@@ -23,7 +23,7 @@ Copy code from another repository into your own and start editing it.
 !["Create a new repository"](https://github.com/learn-static/foundations-3-data/blob/main/images/new-repo.png)
 
 
-## Activate GitHub Pages
+# Step 2. Activate GitHub Pages
 
 1. On your project repository's home page, click the "Settings" button (appears on the right along the tabs above the code area).
 2. On "Settings" page: click "Pages" in the left side menu.
