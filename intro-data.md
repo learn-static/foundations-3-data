@@ -7,6 +7,22 @@
 - Follow steps to edit sheets using formulas, etc.
 - Add/commit csv to repo--possibly updates a visualization?
 
+# Step 1. Copy this GitHub Repository
+
+Copy code from another repository into your own and start editing it.
+
+1. Make sure you're logged into your account on [GitHub](https://github.com)
+2. Scroll to the top of the [foundations-0-github](https://github.com/learn-static/foundations-0-github) repository and click the green "Use This Template" button (appears on the right side above the code area)
+4. This brings you to a "Create a new repository" form. Follow these steps:
+    1. In the **Repository name** text box, give your repository the name `data-foundations`. If you'd like to create your own name for the repository, be sure to use a lowercase name without spaces or odd characters. Dashes (`-`) or underscores (`_`) are okay.
+    2. In the **Description** text box, add `A place to learn metadata basics`.
+    3. Select the option for "**Public**" repository.
+    4. Leave the "Include all branches" option **Unchecked**!
+    5. Click on the green button "**Create repository from template**". This will take you to your new repository.
+
+!["Create a new repository"](https://github.com/learn-static/foundations-3-data/blob/main/images/new-repo.png)
+
+
 ## Activate GitHub Pages
 
 1. On your project repository's home page, click the "Settings" button (appears on the right along the tabs above the code area).
