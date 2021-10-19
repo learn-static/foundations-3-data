@@ -35,13 +35,17 @@ It will take a few minutes for the build to happen and your site to go live--so 
 Meanwhile, you might want to copy the URL to display on your home page:
 
 1. Copy the provided URL.
-2. Go to repository's home page.
+2. Go to repository's GitHub Pages home page.
 3. On right side of the code area, look for "About" section and click on the cog icon to edit. 
 4. In the "About" box, paste in your URL, then click "Save". This will make it easy to access the site in the future!
 
 # Step 3. Explore your website
 
-1. Navigate to the website you just activated, and explore it! Your site should have two pages: a homepage with pictures of cute pets, and a "Map" site that you can access from the menu at the top of the homepage.
-2. Where is Loulou, Flaubert's parrot, shown on your map? Oh no! She's in Kentucky. To discover how your website is built, and how to fix this error, go to the next step.
+1. Navigate to the GithHub Pages website you just activated, and explore it! Your site should have two pages: a homepage with pictures of cute pets, and a "Map" site that you can access from the menu at the top of the homepage.
+2. Where is Loulou, Flaubert's parrot, shown on your map? Oh no! It looks like her pin is not in Paris. To discover how your website is built, and how to fix this error, go to the next step.
 
 # Step 4. Explore how your repository creates your website
+
+1. Click into the "images" folder, and notice that the jpg files that create the images of the pets on your website are all in this folder. Click on loulou.jpg to confirm it's the same image that you see in Loulou's profile on your website's home page.
+2. Click into the "\_data" folder and click on (open) the pets.csv file. Notice that the file names in the "image" column correspond to image filenames in the "images" folder. 
+3. Find Loulou's row and explore the data in it. What is the incorrect information that is causing Loulou's pin to not appear in France as it's supposed to?
