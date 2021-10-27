@@ -1,13 +1,4 @@
-# Introduction to Data
-
-(from Foundational Learning Modules google doc):
-- Copy module repo
-- Activate GH Pages?
-- Use csv from repo, upload to sheets
-- Follow steps to edit sheets using formulas, etc.
-- Add/commit csv to repo--possibly updates a visualization?
-
-# Step 1. Copy this GitHub Repository
+## Step 1. Copy this GitHub Repository
 
 Copy code from another repository into your own and start editing it.
 
@@ -23,7 +14,7 @@ Copy code from another repository into your own and start editing it.
 !["Create a new repository"](https://github.com/learn-static/foundations-3-data/blob/main/images/new-repo.png)
 
 
-# Step 2. Activate GitHub Pages
+## Step 2. Activate GitHub Pages
 
 1. On your project repository's home page, click the "Settings" button (appears on the right along the tabs above the code area).
 2. On "Settings" page: click "Pages" in the left side menu.
@@ -39,13 +30,15 @@ Meanwhile, you might want to copy the URL to display on your home page:
 3. On right side of the code area, look for "About" section and click on the cog icon to edit. 
 4. In the "About" box, paste in your URL, then click "Save". This will make it easy to access the site in the future!
 
-# Step 3. Explore your website
+## Step 3. Explore your website
 
 1. Navigate to the GithHub Pages website you just activated, and explore it! Your site should have two pages: a homepage with pictures of cute pets, and a "Map" site that you can access from the menu at the top of the homepage.
 2. Where is Loulou, Flaubert's parrot, shown on your map? Oh no! It looks like her pin is not in Paris. To discover how your website is built, and how to fix this error, go to the next step.
 
-# Step 4. Explore how your repository creates your website
+## Step 4. Explore how your repository uses metadata to create your website
 
 1. Click into the "images" folder, and notice that the jpg files that create the images of the pets on your website are all in this folder. Click on loulou.jpg to confirm it's the same image that you see in Loulou's profile on your website's home page.
-2. Click into the "\_data" folder and click on (open) the pets.csv file. Notice that the file names in the "image" column correspond to image filenames in the "images" folder. 
+2. Click into the "\_data" folder and click on (open) the pets.csv file. Notice that the file names in the "image" column correspond to image filenames in the "images" folder. This is a _metadata file_--a file with additional information (data) about the image file that it refers to. In this case, each row in the csv (spreadsheet) contains information about the pet in the image, including its owner and location.
 3. Find Loulou's row and explore the data in it. What is the incorrect information that is causing Loulou's pin to not appear in France as it's supposed to?
+
+## Step 5. Fix errors in your metadata file
