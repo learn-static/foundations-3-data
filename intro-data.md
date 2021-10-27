@@ -38,12 +38,12 @@ Meanwhile, you might want to copy the URL to display on your home page:
 ## Step 4. Explore how your repository uses metadata to create your website
 
 1. From the main page of your GitHub repository, click into the "**images**" folder, and notice that the jpg files that create the images of the pets on your website are all in this folder. Click on loulou.jpg to confirm it's the same image that you see in Loulou's profile on your website's home page. 
-2. Now return to the main page of your GitHub repository. Click into the "**\_data**" folder and click on the pets.csv file to open it. Notice that the file names in the "image" column correspond to image filenames in the "images" folder. 
+2. Now return to the main page of your GitHub repository. Click into the "**\_data**" folder and click on the **pets.csv** file to open it. Notice that GitHub has formatted the information that appears as a table or spreadsheet: the first row represents the names or titles of the columns of data below them. Note that the file names in the **image** column correspond to image filenames in the "**images**" folder. 
 
-pets.csv is a _metadata file_--a file with additional information (data) about the image file that it refers to. In this case, each row in the csv (spreadsheet) contains information about the pet in the image, including its owner and location.
+**pets.csv** is a _metadata file_--a file with additional information (data) about the image file that it refers to. In this case, each row in the csv (spreadsheet) contains information about the pet in the image, including its owner and location.
 
 3. Find Loulou's row and explore the data in it. What is the incorrect information that is causing Loulou's pin to not appear in France as it's supposed to?
 
 ## Step 5. Fix errors in your metadata file
 
-1. Download pets.csv to your desktop. One way to do this is to open pets.csv within GitHub and click on the "Raw" tab in the top right hand corner. Your url will now show something similar to https://raw.githubusercontent.com/learn-static/foundations-3-data/main/_data/pets.csv (except with your username instead of learn-static). The main pane of the browser window will now show the data in a plain text format, as comma separated values.
+1. Download **pets.csv** to your desktop. One way to do this is to open **pets.csv** within GitHub and click on the "Raw" tab in the top right hand corner. Your url will now show something similar to https://raw.githubusercontent.com/learn-static/foundations-3-data/main/_data/pets.csv (except with your username instead of learn-static). The main pane of the browser window will now show the data in a plain text format, as comma separated values.
