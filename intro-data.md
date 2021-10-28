@@ -46,4 +46,6 @@ Meanwhile, you might want to copy the URL to display on your home page:
 
 ## Step 5. Fix errors in your metadata file
 
-1. Download **pets.csv** to your desktop. One way to do this is to open **pets.csv** within GitHub and click on the "Raw" tab in the top right hand corner. Your url will now show something similar to https://raw.githubusercontent.com/learn-static/foundations-3-data/main/_data/pets.csv (except with your username instead of learn-static). The main pane of the browser window will now show the data in a plain text format, as comma separated values.
+While you can edit one or two simple values directly in the GitHub browser window, for any edits beyond changing one or two cells you will need to 1. download your metadata file (**pets.csv**), 2. edit it in a spreadsheet editing program, and 3. re-upload your metadata file to your GitHub repository.
+
+Download **pets.csv** to your desktop. One way to do this is to open **pets.csv** within GitHub and click on the "Raw" tab in the top right hand corner. The url you have navigated to will be something similar to https://raw.githubusercontent.com/learn-static/foundations-3-data/main/_data/pets.csv (but with your GitHub username replacing learn-static). The main pane of the browser window will now show the data in a plain text format, as comma separated values.
