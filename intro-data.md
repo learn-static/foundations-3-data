@@ -44,8 +44,16 @@ Meanwhile, you might want to copy the URL to display on your home page:
 
 3. Find Loulou's row and explore the data in it. What is the incorrect information that is causing Loulou's pin to not appear in France as it's supposed to?
 
-## Step 5. Fix errors in your metadata file
+## Step 5. Import your metadata file into Google Sheets for editing
 
-While you can edit one or two simple values directly in the GitHub browser window, for any edits beyond changing one or two cells you will need to 1. download your metadata file (**pets.csv**), 2. edit it in a spreadsheet editing program, and 3. re-upload your metadata file to your GitHub repository.
+While you can edit one or two simple values directly in the GitHub browser window, for any edits beyond changing one or two cells you will need to download your metadata file (**pets.csv**), edit it in a spreadsheet editing program, and re-upload your metadata file to your GitHub repository.
 
-Download **pets.csv** to your desktop. One way to do this is to open **pets.csv** within GitHub and click on the "Raw" tab in the top right hand corner. The url you have navigated to will be something similar to https://raw.githubusercontent.com/learn-static/foundations-3-data/main/_data/pets.csv (but with your GitHub username replacing learn-static). The main pane of the browser window will now show the data in a plain text format (text without formatting). The value of each cell (box) in what GitHub displayed as a table or spreadsheet is in fact a bit of text, and individual cells are separated by a comma. This plain text, comma separated format is the true nature of a csv--the table you saw GitHub create is an interpretation or visualization of that underlying format. 
+Let's take each one of these in turn. 
+
+1. First, download **pets.csv** to your desktop. One way to do this is to open **pets.csv** within GitHub and click on the "Raw" tab in the top right hand corner. The url you have navigated to will be something similar to https://raw.githubusercontent.com/learn-static/foundations-3-data/main/_data/pets.csv (but with your GitHub username replacing learn-static). 
+        The main pane of the browser window will now show the data in a plain text format (text without formatting). The value of each cell (box) in what GitHub displayed as a table or spreadsheet is in fact a bit of text, and individual cells are separated by a comma. This plain text, comma separated format is the true nature of a csv--the table you saw GitHub create is an interpretation or visualization of that underlying format. 
+2. While on the page with your raw csv, choose the "**File**" dropdown from your browser menu. Select "**Save Page As**" and save **pets.csv** to somehwere on your computer where you can find it again.
+3. Next, open Google Sheets and upload **pets.csv**. Alternatively, you can open **pets.csv** in LibreOffice, an open source alternative to Excel.
+        Technical note: please _don't_ open your csv file with Excel. Although Excel is a powerful program in many ways, it does not support UTF-8 encoding, and will make your csv file unusable.
+
+## Step 6. Explore Google Sheets' powerful editing capabilities
