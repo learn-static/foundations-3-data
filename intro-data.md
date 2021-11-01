@@ -106,4 +106,4 @@ You already explored one example of Google Sheets's powerful functions. Consider
 6. Hit the button to "Commit changes."
 
 ## Step 9: Admire your work
-Congratulations! Not navigate to your website to admire how the changes you made to your metadata file have improved the look of your website!
+Congratulations! Now navigate to your website to admire how the changes you made to your metadata file have improved the look of your website!
