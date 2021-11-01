@@ -100,4 +100,10 @@ You already explored one example of Google Sheets's powerful functions. Consider
 ## Step 8. Download pets.csv to your computer and upload it to GitHub
 1. Download **pets.csv** by selecting from the Google Sheets Menu File > Download > Comma-separated values (csv, current sheet). Make sure it is still named pets.csv (delete any reference to a sheet name).
 2. Save the file where you can find it again.
-3. 
+3. Navigate to the `_data` folder in your GitHub repository. There should be one file (pets.csv) in this folder. Select Add File > Upload Files from the menu above and to the right of the main box listing the contents of the folder. 
+4. Drag your files into the box, or click the link to browse to find your new version of pets.csv. **Important: your updated file must be named pets.csv in order for it to over-write the older file and be read by the program that creates your website.**
+5. Add a commit message, such as "fixed errors in pets.csv metadata file." Consider saying in your description what errors you fixed.
+6. Hit the button to "Commit changes."
+
+## Step 9: Admire your work
+Congratulations! Not navigate to your website to admire how the changes you made to your metadata file have improved the look of your website!
