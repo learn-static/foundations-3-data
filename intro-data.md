@@ -70,11 +70,13 @@ Notice that as advertised, the main pane of your browser window now shows the da
 The main pane of the browser window will now show the data in a plain text format (text without formatting). The value of each cell (box) in what GitHub displayed as a table or spreadsheet is in fact a bit of text, and individual cells are separated by a comma. This plain text, comma separated format is the true csv--the table you saw GitHub create is an interpretation or visualization of that underlying document. 
 
 2. While on the page with your raw csv, choose the "**File**" dropdown from your browser menu. Select "**Save Page As**" and save **pets.csv** to somehwere on your computer where you can find it again.
-3. Next, open Google Sheets and upload **pets.csv**. Alternatively, you can open **pets.csv** in LibreOffice, an open source alternative to Excel.
+3. Next, open Google Sheets and upload **pets.csv**:
+    - Navigate to sheets.google.com. Sign into your Google account or create a google account, as needed.
+    - Select the icon in the top left corner to create a new, blank, spreadsheet.
+    - Navigate to File > Import, and select the "Upload" tab. 
+    - Drag your **pets.csv** document into the "upload" area, or click "Select a file from your device" to select the document using your computer's browse function.
 
-Technical note: please _don't_ open your csv file with Excel. Although Excel is a powerful program in many ways, it does not support UTF-8 encoding, and will make your csv file unusable.
-
-
+You can also open **pets.csv** in LibreOffice, an open source alternative to Excel. Please _don't_ open your csv file with Excel. Although Excel is a powerful program in many ways, it does not support UTF-8 encoding, and will make your csv file unusable.
 
 ## Step 6. Explore Google Sheets' powerful editing capabilities
 
