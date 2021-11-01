@@ -44,11 +44,28 @@ Meanwhile, you might want to copy the URL to display on your home page:
 
 3. Find Loulou's row and explore the data in it. What is the incorrect information that is causing Loulou's pin to not appear in France as it's supposed to?
 
-## Step 5. Import your metadata file into Google Sheets for editing
+## Step 5. Import your metadata file into Google Sheets for editing using a Google Sheets Command
 
-While you can edit one or two simple values directly in the GitHub browser window, for any edits beyond changing one or two cells you will need to download your metadata file (**pets.csv**), edit it in a spreadsheet editing program, and re-upload your metadata file to your GitHub repository. Let's start with the first step:
+While you can edit one or two simple values directly in the GitHub browser window, for any edits beyond changing one or two cells we recommend editing your file (**pets.csv**) in a spreadsheet editing program and re-uploading your metadata to your GitHub repository. You can edit your file in Google Sheets or LibreOffice, an open source alternative to Excel.
 
-1. Download **pets.csv** to your desktop. One way to do this is to open **pets.csv** within GitHub and click on the "Raw" tab in the top right hand corner. The url you have navigated to will be something similar to https://raw.githubusercontent.com/learn-static/foundations-3-data/main/_data/pets.csv (but with your GitHub username replacing learn-static). 
+Technical note: please _don't_ open your csv file with Excel. Although Excel is a powerful program in many ways, it does not support UTF-8 encoding, and will make your csv file unusable.
+
+The easiest way to import **pets.csv** takes advantage of Google Sheets' powerful import capabilities:
+
+1. Open **pets.csv** within GitHub and click on the "Raw" tab in the top right hand corner. The url you have navigated to will be something similar to https://raw.githubusercontent.com/learn-static/foundations-3-data/main/_data/pets.csv (but with your GitHub username replacing learn-static). Copy this url to your clipboard.
+
+Notice that as advertised, the main pane of your browser window now shows the data in a plain text format (text without formatting). The value of each cell (box) in what GitHub displayed as a table or spreadsheet is in fact a bit of text, and individual cells are separated by a comma. This plain text, comma separated format is the true csv--the table you saw GitHub create is an interpretation or visualization of that underlying document. 
+
+2. Open a new, blank Google Sheet. In cell A1, enter the `IMPORTDATA` command to tell Google to import the data direcly from this GitHub url. Like other commands in Excel or Google Sheets, the command begins with an `=` to tell Google you are entering a formula, and the command is followed by information explaining what you want the command to do in parentheses. As [Google's official IMPORTDATA documentation](https://support.google.com/docs/answer/3093335?hl=en) explains, your url should be in parentheses, in the form =IMPORTDATA("www.yoururl.com"). In the case of the author of this document, her command will be =IMPORTDATA("https://raw.githubusercontent.com/gabrielesh/foundations-3-data/main/_data/pets.csv")
+3. As soon as you enter this command in full, the spreadsheet should populate with your **pets.csv** data. Name your document "pets" by typing "pets" in the box labled "Untitled Spreadsheet" in the top left hand corner of your Google Sheet.
+4. In order to avoid having the spreadsheet update in response to any changes to the GitHub data, you can eliminate the IMPORTDATA command:
+    - copy cells A1:I17 (all of the cells that include data in your spreadsheet) by selecting the cells with your mouse or touchpad, and copying. You can copy by selecting Command + C (Mac) or Ctrl + C (PC). 
+    - With the cells still selected, paste your copied text as values only. You can do this by navigating to the Edit tab of the Google Sheets menu and selecting "**Paste Special**" > "**Paste Values Only**."
+    - Now select cell A1 and notice that your command has been erased--only the word "name" remains.
+
+## Alternative: Manually import pets.csv into Google Sheets
+
+1. Open **pets.csv** within GitHub and click on the "Raw" tab in the top right hand corner. The url you have navigated to will be something similar to https://raw.githubusercontent.com/learn-static/foundations-3-data/main/_data/pets.csv (but with your GitHub username replacing learn-static). 
 
 The main pane of the browser window will now show the data in a plain text format (text without formatting). The value of each cell (box) in what GitHub displayed as a table or spreadsheet is in fact a bit of text, and individual cells are separated by a comma. This plain text, comma separated format is the true csv--the table you saw GitHub create is an interpretation or visualization of that underlying document. 
 
@@ -57,11 +74,7 @@ The main pane of the browser window will now show the data in a plain text forma
 
 Technical note: please _don't_ open your csv file with Excel. Although Excel is a powerful program in many ways, it does not support UTF-8 encoding, and will make your csv file unusable.
 
-Alternative way to import your csv. Take advantage of Google Sheets' powerful import capabilities:
 
-1. Open **pets.csv** within GitHub and click on the "Raw" tab in the top right hand corner. The url you have navigated to will be something similar to https://raw.githubusercontent.com/learn-static/foundations-3-data/main/_data/pets.csv (but with your GitHub username replacing learn-static). Copy this url to your clipboard.
-2. Open a new, blank Google Sheet. In cell A1, enter the `IMPORTDATA` command to tell Google to import the data direcly from this GitHub url. Like other commands in Excel or Google Sheets, the command begins with an `=` to tell Google you are entering a formula, and the command is followed by information explaining what you want the command to do in parentheses. As [Google's official IMPORTDATA documentation](https://support.google.com/docs/answer/3093335?hl=en) explains, your url should be in parentheses, in the form =IMPORTDATA("www.yoururl.com").
-3. As soon as you enter this command in full, the spreadsheet should populate with your **pets.csv** data. Name your document "pets" by typing "pets" in the box labled "Untitled Spreadsheet" in the top left hand corner of your Google Sheet.
 
 ## Step 6. Explore Google Sheets' powerful editing capabilities
 
