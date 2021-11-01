@@ -56,9 +56,14 @@ The easiest way to import **pets.csv** takes advantage of Google Sheets' powerfu
 
 Notice that as advertised, the main pane of your browser window now shows the data in a plain text format (text without formatting). The value of each cell (box) in what GitHub displayed as a table or spreadsheet is in fact a bit of text, and individual cells are separated by a comma. This plain text, comma separated format is the true csv--the table you saw GitHub create is an interpretation or visualization of that underlying document. 
 
-2. Open a new, blank Google Sheet. In cell A1, enter the `IMPORTDATA` function to tell Google to import the data direcly from this GitHub url. Like other formulas and functions in Google Sheets, this function begins with an `=` to tell Google you are entering a formula, and the function is followed by information explaining what you want the command to do in parentheses. As [Google's official IMPORTDATA documentation](https://support.google.com/docs/answer/3093335?hl=en) explains, your url should be in parentheses, in the form =IMPORTDATA("www.yoururl.com"). In the case of the author of this document, the command will be =IMPORTDATA("https://raw.githubusercontent.com/gabrielesh/foundations-3-data/main/_data/pets.csv")
-3. As soon as you enter this command in full, the spreadsheet should populate with your **pets.csv** data. Name your document "pets" by typing "pets" in the box labled "Untitled Spreadsheet" in the top left hand corner of your Google Sheet.
-4. In order to avoid having the spreadsheet update in response to any changes to the GitHub data, you can eliminate the IMPORTDATA command:
+2. Open a new, blank Google Sheet. 
+    - Notice that all cells (boxes) in a Google Sheet can be described by the combination of their column letter and row number. Thus, the cell in the upper left-hand corner of any Google Sheet is A1, which is above A2 and to the left of B1, and so on.
+    - In cell A1, enter the `IMPORTDATA` function to tell Google to import the data direcly from this GitHub url. 
+    - Like other formulas and functions in Google Sheets, this function begins with an `=` to tell Google you are entering a formula, and the function is followed by information explaining what you want the command to do in parentheses. 
+    - As [Google's official IMPORTDATA documentation](https://support.google.com/docs/answer/3093335?hl=en) explains, your url should be in parentheses, in the form =IMPORTDATA("www.yoururl.com"). 
+    - In the case of the author of this document, the command will be =IMPORTDATA("https://raw.githubusercontent.com/gabrielesh/foundations-3-data/main/_data/pets.csv")
+4. As soon as you enter this command in full, the spreadsheet should populate with your **pets.csv** data. Name your document "pets" by typing "pets" in the box labled "Untitled Spreadsheet" in the top left hand corner of your Google Sheet.
+5. In order to avoid having the spreadsheet update in response to any changes to the GitHub data, you can eliminate the IMPORTDATA command:
     - copy cells A1:I17 (all of the cells that include data in your spreadsheet) by selecting the cells with your mouse or touchpad, and copying. You can copy by selecting Command + C (Mac) or Ctrl + C (PC) or by navigating to the Google Sheets menu and selecting **Edit > Copy**.
     - With the cells still selected, paste your copied text as values only. You can do this by selecting Command + Shift + V (Mac) or Ctrl + Shift + V (PC) or navigating to the Google Sheets menu and selecting **Edit > Paste Special> Paste Values Only**.
     - Now select cell A1 and notice that your command has been erased--only the word "name" remains.
@@ -82,5 +87,13 @@ You can also open **pets.csv** in LibreOffice, an open source alternative to Exc
 1. A quick Google search confirms that the latitude and longitude of Paris, France are 48.864716 and -2.349014. Enter these into your spreadsheet.
 
 ## Step 7. Explore more of Google Sheets' powerful editing capabilities
-You already explored one example of Google Sheets's powerful functions. Consider trying out a few more. First, 
+You already explored one example of Google Sheets's powerful functions. Consider trying out a few more:
+- Notice that all the pet names are in lowercase. Use the =PROPER() formula to convert them to title case (first letter capitalized). 
+        * Insert a new column between A (name) and B (type) and type "name" in the new cell B2. To do this, hover over the box labeled B, click the dropdown arrow, and select "Insert 1 left."
+        * Type "name" in the new B1.
+        * In B2, type "=PROPER(A2)". 
+        * Copy this formula for all the rows in your spreadsheet, either by choosing "Autofill" when prompted, or by hovering over the bottom right corner of your cell until the cursor becomes a plus sign (called the fill handle), then double clicking.
+        * Select the cells from B2 to the end of the spreadsheet with your cursor and use the copy and paste values trick you learned earlier in this lesson to remove the formulas and retain only the animals' names, now with their correct capitalization. As a reminder, the sequence is select, copy (Command + C or Ctrl + C), paste values (Command + Shift + V or Ctrl + Shift + V).
+        * Delete column A (with the lowercase names) by hovering over the box labeled A, selecting the dropdown arrow, and choosing "Delete column."
+- something else
 
