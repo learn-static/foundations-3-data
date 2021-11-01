@@ -78,6 +78,9 @@ The main pane of the browser window will now show the data in a plain text forma
 
 You can also open **pets.csv** in LibreOffice, an open source alternative to Excel. Please _don't_ open your csv file with Excel. Although Excel is a powerful program in many ways, it does not support UTF-8 encoding, and will make your csv file unusable.
 
-## Step 6. Explore Google Sheets' powerful editing capabilities
-You already explored one example of Google Sheets's powerful functions.
+## Step 6. Fix Loulou's location
+1. A quick Google search confirms that the latitude and longitude of Paris, France are 48.864716 and -2.349014. Enter these into your spreadsheet.
+
+## Step 7. Explore more of Google Sheets' powerful editing capabilities
+You already explored one example of Google Sheets's powerful functions. Consider trying out a few more. First, 
 
