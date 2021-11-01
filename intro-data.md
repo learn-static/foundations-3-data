@@ -57,6 +57,12 @@ The main pane of the browser window will now show the data in a plain text forma
 
 Technical note: please _don't_ open your csv file with Excel. Although Excel is a powerful program in many ways, it does not support UTF-8 encoding, and will make your csv file unusable.
 
+Alternative way to import your csv. Take advantage of Google Sheets' powerful import capabilities:
+
+1. Open **pets.csv** within GitHub and click on the "Raw" tab in the top right hand corner. The url you have navigated to will be something similar to https://raw.githubusercontent.com/learn-static/foundations-3-data/main/_data/pets.csv (but with your GitHub username replacing learn-static). Copy this url to your clipboard.
+2. Open a new, blank Google Sheet. In cell A1, enter the `IMPORTDATA` command to tell Google to import the data direcly from this GitHub url. Like other commands in Excel or Google Sheets, the command begins with an `=` to tell Google you are entering a formula, and the command is followed by information explaining what you want the command to do in parentheses. As [Google's official IMPORTDATA documentation](https://support.google.com/docs/answer/3093335?hl=en) explains, your url should be in parentheses, in the form =IMPORTDATA("www.yoururl.com").
+3. As soon as you enter this command in full, the spreadsheet should populate with your **pets.csv** data. Name your document "pets" by typing "pets" in the box labled "Untitled Spreadsheet" in the top left hand corner of your Google Sheet.
+
 ## Step 6. Explore Google Sheets' powerful editing capabilities
 
 
