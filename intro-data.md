@@ -97,3 +97,7 @@ You already explored one example of Google Sheets's powerful functions. Consider
     * Delete column A (with the lowercase names) by hovering over the box labeled A, selecting the dropdown arrow, and choosing "Delete column."
 - something else
 
+## Step 8. Download pets.csv to your computer and upload it to GitHub
+1. Download **pets.csv** by selecting from the Google Sheets Menu File > Download > Comma-separated values (csv, current sheet). Make sure it is still named pets.csv (delete any reference to a sheet name).
+2. Save the file where you can find it again.
+3. 
