@@ -14,3 +14,5 @@
 
 
 **External Resources**:
+- [Google Sheets documentation](https://support.google.com/docs/answer/6000292?hl=en&co=GENIE.Platform%3DDesktop)
+- Carpentries lesson plan for creating well-formatted (tidy) data: {Tidy Data for Librarians](https://librarycarpentry.org/lc-spreadsheets/)
