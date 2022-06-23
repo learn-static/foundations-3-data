@@ -87,7 +87,7 @@ You can also open **pets.csv** in LibreOffice, an open source alternative to Exc
 1. A quick Google search confirms that the latitude and longitude of Paris, France are 48.864716 and -2.349014. Enter these into your spreadsheet.
 
 ## Step 7. Explore more of Google Sheets' powerful editing capabilities
-You already explored one example of Google Sheets's powerful functions. Consider trying out a few more:
+You already explored one example of Google Sheets's powerful functions. Consider trying out another:
 - Notice that all the pet names are in lowercase. Use the =PROPER() formula to convert them to title case (first letter capitalized). 
     * Insert a new column between A (name) and B (type) and type "name" in the new cell B2. To do this, hover over the box labeled B, click the dropdown arrow, and select "Insert 1 left."
     * Type "name" in the new B1.
@@ -95,7 +95,6 @@ You already explored one example of Google Sheets's powerful functions. Consider
     * Copy this formula for all the rows in your spreadsheet, either by choosing "Autofill" when prompted, or by hovering over the bottom right corner of your cell until the cursor becomes a plus sign (called the fill handle), then double clicking.
     * Select the cells from B2 to the end of the spreadsheet with your cursor and use the copy and paste values trick you learned earlier in this lesson to remove the formulas and retain only the animals' names, now with their correct capitalization. As a reminder, the sequence is select, copy (Command + C or Ctrl + C), paste values (Command + Shift + V or Ctrl + Shift + V).
     * Delete column A (with the lowercase names) by hovering over the box labeled A, selecting the dropdown arrow, and choosing "Delete column."
-- something else
 
 ## Step 8. Download pets.csv to your computer and upload it to GitHub
 1. Download **pets.csv** by selecting from the Google Sheets Menu File > Download > Comma-separated values (csv, current sheet). Make sure it is still named pets.csv (delete any reference to a sheet name).
